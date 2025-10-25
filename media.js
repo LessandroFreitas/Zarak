@@ -17,3 +17,9 @@ if (media >= 7) {
 console.log(`Aluno: ${nome}`);
 console.log(`Média: ${media}`);
 console.log(`Situação: ${situacao}`);
+
+// para mostrar na pagina web zarak falou para pedro
+document.writeln("<h3>Resultado Final</h3>");
+document.writeln("Aluno: " + nome + "<br>");
+document.writeln("Média: " + media + "<br>");
+document.writeln("Situação: " + situacao);
